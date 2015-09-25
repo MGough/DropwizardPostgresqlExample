@@ -1,11 +1,15 @@
 # DropwizardPostgresqlExample
-A basic example of how to use a postgresql database in Dropwizard.
+A basic example of how to use a postgresql database in Dropwizard. 
+This example was written for Dropwizard 0.8.4.
 
 ------- Running the Project -------
 
 In order to run it make sure you provide the arguments "server DropWizardPostgres.yml".
+
 It should now be running on http://localhost:8080
+
 You'll need to add some entries to your database, here's an example table:
+ 
  CREATE TABLE people(personid SERIAL PRIMARY KEY, firstName text, surname TEXT);
 
 In order to view an entry head to 'http://localhost:8080/people/ID', where ID is the 'personid' of one of your entries.
