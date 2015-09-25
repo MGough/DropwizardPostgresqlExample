@@ -4,6 +4,7 @@ This example was written for Dropwizard 0.8.4.
 
 ## Running the Project
 
+You'll need to use Maven to package the project.
 In order to run it make sure you provide the arguments "server DropWizardPostgres.yml".
 
 It should now be running on http://localhost:8080
