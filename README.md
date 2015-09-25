@@ -21,5 +21,5 @@ In order to view an entry head to 'http://localhost:8080/people/ID', where ID is
 - The database credentials are set in the YAML config file (DropWizardPostgres.yml)
 - Data is contained in a POJO (Person.java)
 - SQL queries for the data are in a DAO (PersonDAO.java)
-- In order to handle queries which may return multiple Person objects e.g. `SELECT * FROM People WHERE surname = "Gough"` a Mapper (PersonMapper.java) is used which.
+- In order to handle queries which may return multiple Person objects e.g. `SELECT * FROM People WHERE surname = "Gough"` a Mapper (PersonMapper.java) is used.
 - Person resource handles requests on the '/people' path and contains the PersonDAO
