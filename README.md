@@ -10,7 +10,7 @@ It should now be running on http://localhost:8080
 
 You'll need to add some entries to your database, here's an example table:
  ```sql
- CREATE TABLE people(personid SERIAL PRIMARY KEY, firstName text, surname TEXT);
+ CREATE TABLE people(personid SERIAL PRIMARY KEY, firstName TEXT, surname TEXT);
 ```
 In order to view an entry head to 'http://localhost:8080/people/ID', where ID is the 'personid' of one of your entries.
 
