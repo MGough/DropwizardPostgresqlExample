@@ -1,3 +1,5 @@
+# WARNING: This has not been maintained, Dropwizard is now at version 1.0.0 or above. This may no longer be of any use other than for reference.
+
 # Dropwizard Postgresql Example
 A basic example of how to use a postgresql database in Dropwizard. 
 This example was written for Dropwizard 0.8.4.
